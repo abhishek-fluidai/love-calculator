@@ -19,7 +19,7 @@ alert("Please Enter at Least 2 latters!");
 let lovedata = Math.random() *100 ;
 lovedata = Math.floor(lovedata);
 document.getElementById("res").innerHTML = `${lovedata }%`;
-document.getElementById("lname").value = "";
+// document.getElementById("lname").value = "";
 
 }
 }
