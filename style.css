@@ -89,7 +89,7 @@ margin-top: 20px;
  
  input:first-child {
  	margin-top: 18px;
- 	margin-bottom: -8px;
+ 	margin-bottom: -28px;
  }
 input:focus {
   
@@ -223,8 +223,12 @@ input:focus {
   width: 470px;
 }
 input {
-		margin-top: 75px;
+		margin-top: 55px;
 }
+ input:first-child {
+ 	margin-top: 18px;
+ 	margin-bottom: -5px;
+ }
  .anime {
    color:#f00;
    width: 100px;
@@ -236,7 +240,7 @@ input {
   
  }
  .clr-btn {
- 	margin-top: 15px;
+ 	margin-top: 5px;
  }
 }
 @media only screen and (max-width: 400px) {
@@ -259,8 +263,12 @@ input {
   width: 440px;
 }
 input {
-	margin-top: 75px;
+	margin-top: 55px;
 }
+ input:first-child {
+ 	margin-top: 18px;
+ 	margin-bottom: -5px;
+ }
  .anime {
    color:#f00;
    width: 100px;
@@ -272,7 +280,7 @@ input {
   
  }
  .clr-btn {
- 	margin-top: 15px;
+ 	margin-top: 5px;
  }
 }
 
@@ -296,7 +304,7 @@ input {
   width: 400px;
 }
 input {
-		margin-top: 75px;
+		margin-top: 55px;
 }
  .anime {
    color:#f00;
@@ -308,7 +316,11 @@ input {
   animation: pulseEffect 1s linear infinite;
   
  }
+  input:first-child {
+ 	margin-top: 18px;
+ 	margin-bottom: -5px;
+ }
   .clr-btn {
- 	margin-top: 15px;
+ 	margin-top: 5px;
  }
 }
