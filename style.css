@@ -47,43 +47,7 @@ background : white;
   z-index: -1;
 
 }
-@media only screen and (max-width: 425px) {
- .container {
-	overflow: hidden;
-  position: relative;
-  width: 380px;
-  height: 550px;
 
-}
-.contain {
-  width: 410px;
-}
-}
-@media only screen and (max-width: 400px) {
- .container {
-	overflow: hidden;
-  position: relative;
-  width: 360px;
-  height: 550px;
-}
-.contain {
-  width: 390px;
-}
-}
-@media only screen and (max-width: 370px) {
- .container {
-	overflow: hidden;
-  position: relative;
-  width: 330px;
-  height: 550px;
-
-}
-.contain {
-
-  width: 380px;
-
-}
-}
 .h-con {
 	 	height: 65px;
  	 top:  0;
@@ -237,4 +201,106 @@ input:focus {
    .clr-btn:hover {
    background-image: radial-gradient( circle 933.4px at 0.9% -2.6%,  rgba(1,220,215,1) 0%, rgba(171,196,251,1) 47.6%, rgba(224,188,253,1) 72.8%, rgba(255,182,194,1) 100.3% );
    }
+/*Media queries*/
 
+@media only screen and (max-width: 450px) {
+	html {
+	margin: 0;
+	padding: 0;
+	 box-sizing: border-box;
+  
+ font-family: 'Lato', sans-serif;
+}
+ .container {
+	overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+ border-radius: 0px;
+ margin-top: 0px;
+}
+.contain {
+  width: 470px;
+}
+input {
+	margin-top: 105px;
+}
+ .anime {
+   color:#f00;
+   width: 100px;
+   height: 50px;
+   margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  animation: pulseEffect 1s linear infinite;
+  
+ }
+}
+@media only screen and (max-width: 400px) {
+	html {
+	margin: 0;
+	padding: 0;
+	 box-sizing: border-box;
+  
+ font-family: 'Lato', sans-serif;
+}
+ .container {
+	overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+ border-radius: 0px;
+ margin-top: 0px;
+}
+.contain {
+  width: 440px;
+}
+input {
+	margin-top: 105px;
+}
+ .anime {
+   color:#f00;
+   width: 100px;
+   height: 50px;
+   margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  animation: pulseEffect 1s linear infinite;
+  
+ }
+
+}
+
+@media only screen and (max-width: 370px) {
+	html {
+	margin: 0;
+	padding: 0;
+	 box-sizing: border-box;
+  
+ font-family: 'Lato', sans-serif;
+}
+ .container {
+	overflow: hidden;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+ border-radius: 0px;
+ margin-top: 0px;
+}
+.contain {
+  width: 400px;
+}
+input {
+	margin-top: 105px;
+}
+ .anime {
+   color:#f00;
+   width: 100px;
+   height: 50px;
+   margin: 0 auto;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  animation: pulseEffect 1s linear infinite;
+  
+ }
+}
