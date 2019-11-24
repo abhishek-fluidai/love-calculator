@@ -19,10 +19,7 @@ body {
 
 .container {
 	overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   width: 400px;
   height: 550px;
 background : white;
@@ -30,6 +27,11 @@ background : white;
   background-size: cover ;
   border-radius: 25px 25px 10px 10px;
   box-shadow: 1px 1px 5px black;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 35px;
 
 }
 
@@ -39,11 +41,48 @@ background : white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 430px;
   height: 550px;
   opacity: 1;
   z-index: -1;
 
+}
+@media only screen and (max-width: 425px) {
+ .container {
+	overflow: hidden;
+  position: relative;
+  width: 380px;
+  height: 550px;
+
+}
+.contain {
+  width: 410px;
+}
+}
+@media only screen and (max-width: 400px) {
+ .container {
+	overflow: hidden;
+  position: relative;
+  width: 360px;
+  height: 550px;
+}
+.contain {
+  width: 390px;
+}
+}
+@media only screen and (max-width: 370px) {
+ .container {
+	overflow: hidden;
+  position: relative;
+  width: 330px;
+  height: 550px;
+
+}
+.contain {
+
+  width: 380px;
+
+}
 }
 .h-con {
 	 	height: 65px;
