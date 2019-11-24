@@ -223,7 +223,7 @@ input:focus {
   width: 470px;
 }
 input {
-	margin-top: 105px;
+	margin-top: 80px;
 }
  .anime {
    color:#f00;
@@ -234,6 +234,9 @@ input {
   margin-top: 50px;
   animation: pulseEffect 1s linear infinite;
   
+ }
+ .clr-btn {
+ 	margin-top: 15px;
  }
 }
 @media only screen and (max-width: 400px) {
@@ -268,7 +271,9 @@ input {
   animation: pulseEffect 1s linear infinite;
   
  }
-
+ .clr-btn {
+ 	margin-top: 15px;
+ }
 }
 
 @media only screen and (max-width: 370px) {
@@ -302,5 +307,8 @@ input {
   margin-top: 50px;
   animation: pulseEffect 1s linear infinite;
   
+ }
+  .clr-btn {
+ 	margin-top: 15px;
  }
 }
