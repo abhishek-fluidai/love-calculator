@@ -81,13 +81,13 @@ background-image: url(assets/13.jpg);
 #fccb90 0%,
 #d57eeb 100%);
 padding: 18px 26px;
-margin-top: -10px;
+margin-top: 5px;
 
  }
  
  input:first-child {
- 	margin-top: 22px;
- 	margin-bottom: -27px;
+ 	margin-top: 18px;
+ 	margin-bottom: -8px;
  }
 input:focus {
   
@@ -115,6 +115,9 @@ input:focus {
   -webkit-animation: pulseEffect 1s linear infinite;
   -o-animation: pulseEffect 1s linear infinite;
   animation: pulseEffect 1s linear infinite;
+      position: absolute;
+    top: 23%;
+    left: 39%;
  }
  @keyframes pulseEffect {
   0%{transform: scale(1.1);}
