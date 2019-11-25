@@ -21,6 +21,8 @@ alert("Please Enter at Least 2 latters!");
 let lovedata = Math.random() *100 ;
 lovedata = Math.floor(lovedata);
 document.getElementById("res").innerHTML = `${lovedata }%`;
+document.getElementById("result-btn").style.display = "none";
+document.getElementById("clr").style.display = "block";
 
 // document.getElementById("lname").value = "";
 
@@ -30,4 +32,6 @@ notification
 function clr() {
 	document.getElementById("lname").value = "";
 	document.getElementById("res").innerHTML = "Name Erased!";
+	document.getElementById("result-btn").style.display = "block";
+document.getElementById("clr").style.display = "none";
 	}
