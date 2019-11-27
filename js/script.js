@@ -28,7 +28,7 @@ document.getElementById("clr").style.display = "block";
 
    }
 }
-notification
+
 function clr() {
 	document.getElementById("lname").value = "";
 	document.getElementById("res").innerHTML = "Name Erased!";
