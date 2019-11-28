@@ -116,6 +116,7 @@ input:focus {
   color:#f00;
   margin-bottom: 5px;
    animation: pulseEffect 1s linear infinite;
+	margin: inherit;
 
  }
  @keyframes pulseEffect {
