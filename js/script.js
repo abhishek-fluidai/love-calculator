@@ -9,14 +9,14 @@ document.getElementById("res").innerHTML = "Enter Name!";
 }   else if(!isNaN(a)){
 alert("Enter Text only!");
 }   else if(a.length <=1){
-alert("Please Enter at Least 2 latters!");
+alert("Please Enter at Least 2 letters!");
 }   else if(b == ""){
 alert("Enter your Hmm's name!");
 document.getElementById("res").innerHTML = "Enter Name!";
 }   else if(!isNaN(b)){
 alert("Please Enter Text only!");
 }  else if(b.length <=1){
-alert("Please Enter at Least 2 latters!");
+alert("Please Enter at Least 2 letters!");
 } else {
 let lovedata = Math.random() *100 ;
 lovedata = Math.floor(lovedata);
